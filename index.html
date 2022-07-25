@@ -27,14 +27,16 @@
     
 
     <main id="top-of-page">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ctScBtvmYh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <section id="form-section">
-            <h2 id="motto">Handcrafted, home-made masterpieces</h2>
+        <section id="get-started">
+            <h2 id="motto">Handcrafted <span id="company-name">Original Drum</span> kits for every level</h2>
             <form id="form" action="_blank">
-                <input id="email" type="email" name="email" placeholder="jsmith@aol.com" />
-                <input type="submit" id="submit" />
+                <p><label>Sign up for info on newly released kits</label></p>
+                <input id="email-sign-up" type="email" name="email" placeholder="Enter your email address" />
+                <input type="submit" id="submit-btn" value="Sign Up"/>
             </form>
+            <hr id="hr1"></hr>
         </section>
+
         <section id="features">
             <div class="features">
                 <img src="https://media.sweetwater.com/api/i/q-82__f-webp__ha-49385fe058daec70__hmac-025490b1cddfec13fe056c7e319035e8466804b6/images/items/750/CM322-SSP-large.jpg.auto.webp"
@@ -45,8 +47,8 @@
                 </div>
             </div>
             <div class="features">
-                <img src="https://media.sweetwater.com/api/i/q-82__f-webp__ha-0d568ca116c3c4b9__hmac-b5cbc0cf5c22d9e80fce9d474756026a48997e90/images/items/750/PDNY1604PR-large.jpg.auto.webp"
-                    alt="rose pink drum set">
+                <img src="https://media.sweetwater.com/api/i/q-82__f-webp__ha-49385fe058daec70__hmac-025490b1cddfec13fe056c7e319035e8466804b6/images/items/750/CM322-SSP-large.jpg.auto.webp"
+                    alt="silver drum set">
                 <div>
                     <h2>Fast Shipping</h2>
                     <p>We make sure you recieve your drum kit as soon as we have finished making it. We also provide
@@ -54,53 +56,56 @@
                 </div>
             </div>
             <div class="features">
-                <img src="https://media.sweetwater.com/api/i/q-82__f-webp__ha-b15e33aa2bf192af__hmac-e7ce7988baf578a1a5cd38d8383e31621cafacff/images/items/750/AR529S-UMG-large.jpg.auto.webp"
-                    alt="light green drum set">
+                <img src="https://media.sweetwater.com/api/i/q-82__f-webp__ha-49385fe058daec70__hmac-025490b1cddfec13fe056c7e319035e8466804b6/images/items/750/CM322-SSP-large.jpg.auto.webp"
+                    alt="silver drum set">
                 <div>
                     <h2>Quality Assurance</h2>
                     <p>For every purchase you make, we will ensure there are no damages or faults and we will check and
                         test the pitch of your instrument.</p>
                 </div>
             </div>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ctScBtvmYh8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
 
         <section id="products">
             <div class="one-product">
-                <h4>Beginner Kit</h4>
+                <h4 class="kit-type">Beginner Kit</h4>
                 <h3>$700</h3>
+                <p>Just the basics.</p>
                 <p>Lorem Ipsum.</p>
-                <p>Lorem Ipsum.</p>
-                <p>Lorem Ipsum.</p>
-                <button>Purchase Kit</button>
+                <p>Includes one pair of sticks.</p>
+                <button type="submit" value="form">Purchase Kit</button>
             </div>
             <div class="one-product">
-                <h4>Intermediate Kit</h4>
+                <h4 class="kit-type">Intermediate Kit</h4>
                 <h3>$900</h3>
+                <p>The rhythm is gonna get ya.</p>
                 <p>Lorem Ipsum.</p>
                 <p>Lorem Ipsum.</p>
-                <p>Lorem Ipsum.</p>
-                <button>Purchase Kit</button>
+                <button type="submit" value="form">Purchase Kit</button>
             </div>
             <div class="one-product">
-                <h4>Pro Kit</h4>
+                <h4 class="kit-type">Pro Kit</h4>
                 <h3>$1700</h3>
+                <p>For those who wish to rock.</p>
                 <p>Lorem Ipsum.</p>
                 <p>Lorem Ipsum.</p>
-                <p>Lorem Ipsum.</p>
-                <button>Purchase Kit</button>
+                <button type="submit" value="form">Purchase Kit</button>
             </div>  
         </section>
-        <hr></hr>
+        <hr id="hr2"></hr>
     </main>
 
     <footer>
         <div id="contact-info">
+            <h3>Contact Us</h3>
             <p><a href="tel:2155552222" class="contact-info" id="phone-number">215-555-2222</a></p>
             <p><a href="mailto:originaldrum@gmail.com" class="contact-info" id="email">originaldrums@gmail.com</a></p>
             <p class="contact-info">123 Main Street, Philadelphia, PA 19123</p>
             <p id="copyright">Copyright 2022, Original Drums</p>
         </div>
         <div id="footer-links">
+            
             <a href="/privacy">Privacy</a>
             <a href="/terms">Terms</a>
         </div>
