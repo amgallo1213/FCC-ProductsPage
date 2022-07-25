@@ -105,6 +105,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-bottom: 80px;
 }
 
 .one-product    {
@@ -123,11 +124,32 @@ button  {
     border-radius: 6%;
     margin: 20px;
 }
+button:hover{
+    cursor: pointer;
+}
+hr  {
+    border-color:#E71D36;
+    width: 97%;
+    margin-left: 20px;
+}
 .contact-info   {
     margin: 0;
+    color: #ff9f1c;
 }
+#email:hover    {
+    color: #E71D36;
+}
+
+#phone-number:hover{
+    color: #E71D36;
+}
+
 footer{
     padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 input {
