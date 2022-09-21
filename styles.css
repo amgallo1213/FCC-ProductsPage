@@ -201,6 +201,7 @@ footer{
     width: 900px;
     margin-left: 250px;
     margin-top: 200px;
+    margin-bottom: 60px;
     border: 1px solid #FDFFFC;
 }
 
@@ -217,7 +218,26 @@ footer{
 }
 
 .kit-description    {
-    padding: 20px;
+    padding: 20px 60px 20px 60px;
+}
+
+.kit-price  {
+    color: #e71d36;
+    font-family: Raleway, san-serif;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-left: 420px;
+}
+
+.purchase-kit-btn   {
+    background-color: #E71D36;
+    color: #FDFFFC;
+    width: 90px;
+    height: 35px;
+    border: #FDFFFC;
+    border-radius: 6%;
+    margin-left: 410px;
 }
 
 @media (max-width: 1199px) and (min-width: 769px) {
