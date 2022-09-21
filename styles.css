@@ -162,7 +162,7 @@ button:hover{
     margin-bottom: 40px;
 }
 
-#hr2  {
+.hr2  {
     border-color:#E71D36;
     width: 97%;
     margin-left: 20px;
@@ -197,6 +197,28 @@ footer{
     font-size: 0.7rem;
 }
 
+#pro-kit-div    {
+    width: 900px;
+    margin-left: 250px;
+    margin-top: 200px;
+    border: 1px solid #FDFFFC;
+}
+
+.kit-name   {
+    font-family: Raleway, sans-serif;
+    letter-spacing: 0.4px;
+    color: #2ec4b6;
+    font-size: 2rem;
+    margin-left: 45%;
+}
+
+.kit-img    {
+    margin-left: 42.5%;
+}
+
+.kit-description    {
+    padding: 20px;
+}
 
 @media (max-width: 1199px) and (min-width: 769px) {
     .features {
