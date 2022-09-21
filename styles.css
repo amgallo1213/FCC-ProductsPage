@@ -202,7 +202,7 @@ footer{
     margin-left: 250px;
     margin-top: 200px;
     margin-bottom: 60px;
-    border: 1px solid #FDFFFC;
+    border: 1px solid #ff9f1c;
 }
 
 .kit-name   {
@@ -219,6 +219,8 @@ footer{
 
 .kit-description    {
     padding: 20px 60px 20px 60px;
+    color: #FDFFFC;
+    text-align: center;
 }
 
 .kit-price  {
@@ -228,6 +230,16 @@ footer{
     font-weight: bold;
     font-size: 1.4rem;
     margin-left: 420px;
+}
+
+.shipping   {
+    color: #2ec4b6;
+    font-family: Raleway, san-serif;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-left: 370px;
+    margin-top: -15px;
 }
 
 .purchase-kit-btn   {
